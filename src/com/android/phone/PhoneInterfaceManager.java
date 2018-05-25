@@ -1309,6 +1309,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
 
         log("DefaultSubId: " + phoneSubId);
         log("NetworkType: " + network);
+    }
         
     @Override
     public boolean isOffhook(String callingPackage) {
